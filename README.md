@@ -63,10 +63,10 @@ for (int i = 0; i < 5; i++) {
     cout << "apel termanis " << player[i].jenis << "enak dimakan" << player[i].rasa << "\n";
     }
 }
-
+```
                                                                                        
                                                                                        
-### game pokemon
+## game pokemon
 ```bash
 #include <iostream>
 using namespace std;
@@ -162,3 +162,4 @@ int main() {
     
     return 0;
 }
+```
