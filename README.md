@@ -1,7 +1,8 @@
+#Praktikum
 
-APEL
+##Apel
 
-''..
+```bash
 #include<iostream>
 using namespace std;
 
@@ -65,8 +66,9 @@ for (int i = 0; i < 5; i++) {
 
                                                                                        
                                                                                        
-                                                                                       
-Game pokemon
+##game pokemon
+```bash
+
 #include <iostream>
 using namespace std;
 
