@@ -163,3 +163,23 @@ int main() {
     return 0;
 }
 ```
+
+## hitung harga
+``` bash
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+void hargaPembelian(int hargaSatuan, int jumlahBeli, int diskon) {
+    int totalHarga = hargaSatuan * jumlahBeli;
+    int totalDiskon = totalHarga * diskon / 100;
+    int totalHargaDiDiskon = totalHarga - totalDiskon;
+    
+    cout << "total harga pembelian setelah di diskon: " << totalHargaDiDiskon;
+}
+int main() {
+    hargaPembelian(8000, 6, 50);
+    
+    return 0;
+}
+```
